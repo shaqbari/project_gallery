@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>로그인</title>
+	<style>
+		#login{
+			width:300px;
+			height:200px
+		}
+		
+		.input{
+			width:200px;
+			height:20px;
+		}
+		
+	</style>
+</head>
+<body>
+	<div id="login">
+		<form action="login.jsp" method="post">
+			<input type="text" class="input" name="id" value="test" placeholder="ID입력"/><br>
+			<input type="password" class="input" name="pw" value="1234" placeholder="password입력"/><br>
+			<input type="submit" value="로그인"/>
+		</form>
+	</div>
+	<a href="regist.html">이미지 등록</a>
+	<a href="list.jsp">이미지 보기</a>		
+</body>
+</html>
