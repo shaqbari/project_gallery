@@ -1,4 +1,4 @@
-package ch19_jdbc;
+package db;
 
 public class DBConnInfo {
 	private String driver="oracle.jdbc.driver.OracleDriver";
